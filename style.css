@@ -1,0 +1,169 @@
+document{
+    max-width: 100vw;
+    overflow: hidden;
+}
+:root{
+--green: #507035;
+--cool: #8a9086;
+--sick: #274011; 
+--title:#1a2a0a;
+}
+
+html{
+    background-color: #d3d7cf;
+}
+
+.header-img{
+    width:100%;
+    height:70px;
+    background: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-camouflage-green-solid-color-background.jpg);
+    background-size: cover;
+} 
+
+main{
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 25%;
+    height: 590px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(93, 116, 93);
+    color: var(--sick);
+    font-size: 25px;
+    word-spacing: 2px;
+    border-radius: 25px;
+    margin-top: 50px;
+    ;
+}
+
+header{
+    background-color: #8a9086;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+}
+
+#me{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight:bold ;
+    color: var(--title)
+}
+
+section{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: var(--sick);
+}
+
+#welcome{
+    line-height: 34px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.click :hover{
+    text-decoration: underline;
+}
+h1{ 
+    font-size: 48px;
+    color: var(--title);
+    text-align: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    list-style: none;
+}
+nav a {
+    color: var(--sick);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#about{
+   position: relative;
+   right: -105px;
+
+}
+
+#contact{
+   position: relative;
+   left: -105px;
+}
+
+.aboutme{
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cool);
+    color: var(--sick);
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+    width:66%;
+    margin-left: 400px;
+    right: 5%;
+
+}
+
+#melissa{
+    color: var(--title);
+    font-size: 26px;
+    text-align: center;
+    
+}
+.mywork{
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cool);
+    color: var(--sick);
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 25px;
+}
+
+#woo{
+    color: var(--title);
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact{
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cool);
+    color: var(--sick);
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 25px;
+}
+
+#info{
+    color: var(--title);
+    font-size: 26px;
+    text-align: center;
+}
+
+footer{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(119, 114, 114)
+
+}
+
+ .links{
+    list-style-type: none;
+ }
+ 
