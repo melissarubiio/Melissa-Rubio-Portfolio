@@ -102,12 +102,13 @@ nav a {
     background-color: var(--cool);
     color: var(--sick);
     font-size: 20px;
-    line-height: 30px;
+    line-height: 48px;
     border-radius: 25px;
     margin-top: 50px;
     width:66%;
     margin-left: 400px;
     right: 5%;
+    word-spacing: 2px;
 
 }
 
@@ -115,6 +116,7 @@ nav a {
     color: var(--title);
     font-size: 26px;
     text-align: center;
+    
     
 }
 .mywork{
@@ -164,6 +166,24 @@ footer{
 }
 
  .links{
-    list-style-type: none;
+    text-align: center;
  }
  
+ .top, .bottom{
+    margin-left: 414px;
+    height: 200px;
+    width: 300px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+ }
+
+
+ .top:hover, .bottom:hover{
+    transform: scale(1.5);
+ }
