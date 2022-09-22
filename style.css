@@ -1,17 +1,4 @@
-document{
-    max-width: 100vw;
-    overflow: hidden;
-}
-:root{
---green: #507035;
---cool: #8a9086;
---sick: #274011; 
---title:#1a2a0a;
-}
-
-html{
-    background-color: #d3d7cf;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans:ital@1&family=Noto+Serif&display=swap');
 
 .header-img{
     width:100%;
@@ -28,7 +15,6 @@ main{
     height: 590px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(93, 116, 93);
-    color: var(--sick);
     font-size: 25px;
     word-spacing: 2px;
     border-radius: 25px;
@@ -55,15 +41,6 @@ section{
     color: var(--sick);
 }
 
-#welcome{
-    line-height: 34px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.click :hover{
-    text-decoration: underline;
-}
 h1{ 
     font-size: 48px;
     color: var(--title);
@@ -83,42 +60,10 @@ nav a {
     font-size: 30px;
 }
 
-#about{
-   position: relative;
-   right: -105px;
-
-}
-
 #contact{
-   position: relative;
-   left: -105px;
+   position: relative;;
 }
 
-.aboutme{
-    margin-bottom: 20px;
-    padding: 40px;
-    height: 550px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cool);
-    color: var(--sick);
-    font-size: 20px;
-    line-height: 48px;
-    border-radius: 25px;
-    margin-top: 50px;
-    width:66%;
-    margin-left: 400px;
-    right: 5%;
-    word-spacing: 2px;
-
-}
-
-#melissa{
-    color: var(--title);
-    font-size: 26px;
-    text-align: center;
-    
-    
-}
 .mywork{
     margin-bottom: 20px;
     padding: 40px;
@@ -141,9 +86,7 @@ nav a {
     margin-bottom: 20px;
     padding: 40px;
     height: 280px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cool);
-    color: var(--sick);
+    
     font-size: 18px;
     line-height: 30px;
     border-radius: 25px;
@@ -157,12 +100,20 @@ nav a {
 
 footer{
     padding: 30px;
+    margin-top: 50px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
     color: rgb(119, 114, 114)
+}
 
+#bottom{
+    margin-top: 150px;
+}
+
+#made-by{
+    font-size: 12px;
 }
 
  .links{
@@ -188,3 +139,56 @@ footer{
  .top:hover, .bottom:hover{
     transform: scale(1.5);
  }
+
+ .nav-item{
+    font-size:20px;
+    margin-left: 45px;
+ }
+
+ .nav-link:hover{
+    color: white;
+    font-size: 22px;
+ }
+
+ #navbar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+ }
+
+ #header{
+    margin-left: 28px;
+ }
+#header:hover{
+    color: black;
+    font-size: 41px;
+}
+
+.col{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.title{
+    font-size: 26;
+}
+
+#firstbox{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    line-height: 48px;
+}
+
+#aboutme{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    line-height: 48px;
+}
+
+#centertitle{
+    text-align: center;
+}
